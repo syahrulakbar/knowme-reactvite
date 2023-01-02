@@ -1,9 +1,7 @@
-import React, { useState, lazy, Suspense } from "react";
+import React, { useState, lazy } from "react";
 import { TiWeatherSunny } from "react-icons/ti";
 import { HiMoon } from "react-icons/hi";
-// import ProfileBar from "./ProfileBar";
-// import Footer from "./Footer";
-// import Navbar from "./Navbar";
+
 const ProfileBar = lazy(() => import("./ProfileBar"));
 const Footer = lazy(() => import("./Footer"));
 const Navbar = lazy(() => import("./Navbar"));
