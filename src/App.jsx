@@ -1,10 +1,5 @@
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-// import Layout from "./components/Layout";
-// import ExperienceSection from "./content/ExperienceSection";
-// import ProjectSection from "./content/ProjectSection";
-// import CertificateSection from "./content/CertificateSection";
-// const Layout = React.lazy(() => import("./components/Layout"));
 const Layout = lazy(() => import("./components/Layout"));
 const ExperienceSection = lazy(() => import("./content/ExperienceSection"));
 const ProjectSection = lazy(() => import("./content/ProjectSection"));
