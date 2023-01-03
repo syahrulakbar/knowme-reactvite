@@ -28,8 +28,8 @@ const ProfileBar = () => {
       <div id="particles-dark" className={`transition duration-150 ease-in-out w-[100%] h-[100%] absolute top-0 left-0 -z-20`}></div>
 
       <div id="profile-image" className="w-[100%] lg:w-[100%] xl:w-[30%] mx-4">
-        <div className="relative image-profile flex justify-center  xl:justify-end">
-          <picture className="w-[40%]">
+        <div className="relative image-profile flex justify-center xl:justify-end">
+          <picture className="flex justify-center xl:justify-end">
             <source type="image/webp" media="(min-width: 600px)" srcSet={ProfilePicture} />
             <source type="image/png" media="(max-width: 600px)" srcSet={ProfilePicturePng} />
             <img
@@ -40,7 +40,7 @@ const ProfileBar = () => {
               onClick={detailImage}
               src={ProfilePicturePng}
               alt="Profile Picture"
-              className={`${pictureView === 1 ? "" : "border-red-500/70"} cursor-pointer rounded-full border-4  `}
+              className={`${pictureView === 1 ? "" : "border-red-500/70"} w-[40%] cursor-pointer rounded-full border-4  `}
             />
           </picture>
         </div>
