@@ -6,19 +6,12 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   plugins: [
     react(),
-    // One of the glob patterns doesn't match any files. Please remove or fix the following: {
-    //   "globDirectory": "D:\\Self Project\\my-website-app\\dist",
-    //   "globPattern": "**/*.{js,css,html,png",
-    //   "globIgnores": [
-    //     "**/node_modules/**/*",
-    //     "sw.js",
-    //     "workbox-*.js"
-    //   ]
-    // }
+
     VitePWA({
       registerType: "autoUpdate",
       workbox: {
-        globPatterns: ["**/*.{js,css,html,png"],
+        globDirectory: "dist",
+        globPatterns: ["**/*.{js,css,html,png}", "*/*.{html,png}"],
         globIgnores: ["**/node_modules/**/**", "sw.js", "workbox-*.js"],
       },
       manifest: {
