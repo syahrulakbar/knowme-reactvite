@@ -39,7 +39,7 @@ const ExperienceSection = () => {
     },
   ];
   return (
-    <div id="experience" className="container mx-auto px-10 mt-10">
+    <div id="experience" className="container mx-auto  mt-10">
       <div className="education-section flex justify-center items-center">
         <div className="education-content-1">
           {dataExperience.map((experience, id, arr) => (

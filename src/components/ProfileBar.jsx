@@ -2,8 +2,8 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import ProfilePicture from "../assets/images/profile-picture-2.webp";
 import DetailPicture from "../assets/images/detail-profile.webp";
-// import "../config/particles-config";
-// import "../config/particles-dark";
+import "../config/particles-config";
+import "../config/particles-dark";
 
 const ProfileBar = () => {
   const [pictureView, setpictureView] = useState(0);
