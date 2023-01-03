@@ -4,6 +4,11 @@ import LandingPage from "../assets/images/landing-page-1.webp";
 import Bookshelf from "../assets/images/bookshelf-1.webp";
 import Nobarkuy from "../assets/images/nobarkuy-preview-1.webp";
 import Warkopbae from "../assets/images/warkopbae.webp";
+import OntimePicturePng from "../assets/images/Ontime.png";
+import LandingPagePng from "../assets/images/landing-page-1.png";
+import BookshelfPng from "../assets/images/bookshelf-1.png";
+import NobarkuyPng from "../assets/images/nobarkuy-preview-1.png";
+import WarkopbaePng from "../assets/images/warkopbae.png";
 
 const ProjectSection = () => {
   const dataProjects = [
@@ -12,6 +17,7 @@ const ProjectSection = () => {
       desc: "Website Movie Catalogue",
       tech: ["Java", "Firebase"],
       img: OntimePicture,
+      imgPng: OntimePicturePng,
       link: "https://play.google.com/store/apps/details?id=com.catatanku.ontime",
     },
     {
@@ -19,6 +25,7 @@ const ProjectSection = () => {
       desc: "Website Movie Catalogue",
       tech: ["HTML5", "CSS3", "Javascript"],
       img: LandingPage,
+      imgPng: LandingPagePng,
       link: "https://ontimeapp.netlify.app/",
     },
     {
@@ -26,6 +33,7 @@ const ProjectSection = () => {
       desc: "Website Movie Catalogue",
       tech: ["HTML5", "CSS3", "Javascript"],
       img: Bookshelf,
+      imgPng: BookshelfPng,
       link: "https://bookshelf-apps-dicoding.netlify.app/",
     },
     {
@@ -33,6 +41,7 @@ const ProjectSection = () => {
       desc: "Website Movie Catalogue",
       tech: ["React JS", "Tailwind CSS"],
       img: Nobarkuy,
+      imgPng: NobarkuyPng,
       link: "https://web-movie-react-js.vercel.app/",
     },
     {
@@ -40,6 +49,7 @@ const ProjectSection = () => {
       desc: "Website Movie Catalogue",
       tech: ["Javascript", "PWA", "Webpack"],
       img: Warkopbae,
+      imgPng: WarkopbaePng,
       link: "https://warkopbae-v3-0.vercel.app",
     },
   ];
@@ -50,8 +60,12 @@ const ProjectSection = () => {
         {dataProjects.map((project, id) => (
           <a aria-label="link to my project" key={id} href={project.link} target="_blank" rel="noopener noreferrer">
             <div className={`bg-white text-black dark:bg-slate-900 dark:text-white card relative mt-2 lg:m-3 rounded-lg shadow-md shadow-sky-400 h-[350px]`}>
-              <div className="h-[60%]">
-                <img loading="lazy" className="w-full h-full rounded-t-lg" src={project.img} alt={`${project.title} preview`} />
+              <div className="w-full h-[60%]">
+                <picture>
+                  <source type="image/webp" media="(min-width: 600px)" srcSet={project.img} />
+                  <source type="image/png" media="(max-width: 600px)" srcSet={project.imgPng} />
+                  <img loading="lazy" className="w-full h-full rounded-t-lg" src={project.img} alt={`${project.title} preview`} />
+                </picture>
               </div>
               <div id="project-title" className="w-full ">
                 <div className="p-5">

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 import ProfilePicture from "../assets/images/profile-picture-2.webp";
-import DetailPicture from "../assets/images/detail-profile.webp";
+import ProfilePicturePng from "../assets/images/profile-picture-2.png";
+import DetailPicturePng from "../assets/images/detail-profile.png";
 import "../config/particles-config";
 import "../config/particles-dark";
 
@@ -13,7 +14,7 @@ const ProfileBar = () => {
       setpictureView(pictureView + 1);
     }
     Swal.fire({
-      imageUrl: `${DetailPicture}`,
+      imageUrl: `${DetailPicturePng}`,
       imageWidth: 400,
       imageHeight: 400,
       imageAlt: "Profile Picture",
@@ -28,15 +29,20 @@ const ProfileBar = () => {
 
       <div id="profile-image" className="w-[100%] lg:w-[100%] xl:w-[30%] mx-4">
         <div className="relative image-profile flex justify-center  xl:justify-end">
-          <img
-            id="profile-picture"
-            width={"200px"}
-            height="200px"
-            onClick={detailImage}
-            src={ProfilePicture}
-            alt="Profile Picture"
-            className={`${pictureView === 1 ? "" : "border-red-500/70"} cursor-pointer rounded-full w-[40%] border-4  `}
-          />
+          <picture className="w-[40%]">
+            <source type="image/webp" media="(min-width: 600px)" srcSet={ProfilePicture} />
+            <source type="image/png" media="(max-width: 600px)" srcSet={ProfilePicturePng} />
+            <img
+              id="profile-picture"
+              loading="lazy"
+              width={"200px"}
+              height="200px"
+              onClick={detailImage}
+              src={ProfilePicturePng}
+              alt="Profile Picture"
+              className={`${pictureView === 1 ? "" : "border-red-500/70"} cursor-pointer rounded-full border-4  `}
+            />
+          </picture>
         </div>
       </div>
       <div id="profile-desc" className="w-full xl:w-[70%]">
@@ -109,7 +115,7 @@ const ProfileBar = () => {
               </a>
               {/* <!-- CV --> */}
               <a
-                href="https://github.com/syahrulakbar/mochamad_syahrul_akbar-final_project/raw/main/assets/curriculum-vitae.pdf"
+                href="https://github.com/syahrulakbar/mochamad_syahrul_akbar-final_project/raw/main/assets/My-Resume.pdf"
                 target="_blank"
                 aria-label="download my resume"
                 className="w-9 h-9 mr-3 rounded-full flex items-center justify-center border   border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white"

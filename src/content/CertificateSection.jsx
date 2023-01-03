@@ -18,14 +18,14 @@ const CertificateSection = () => {
       title: "Assistant Mentor",
       organization: "Ruangguru",
       date: "Issued Dec 2022 - No Expiration Date",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://drive.google.com/file/d/1CHAx4ebK4kPL-mkZ9mYKkBvjyW4C2Jvj/view",
     },
     {
       img: iconRuangguru,
       title: "Frontend Engineering Ruangguru Camp Batch 3",
       organization: "Ruangguru",
       date: "Issued Dec 2022 - No Expiration Date",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://drive.google.com/file/d/1J2hINHqe-XXcRHwIODNYIMx1rzIsk4O0/view",
     },
 
     {
@@ -34,7 +34,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Aug 2022 - Exp Aug 2025",
       credential: "N9ZO7LY76ZG5",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/N9ZO7LY76ZG5",
     },
     {
       img: iconDicoding,
@@ -42,7 +42,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Aug 2022 - Exp Aug 2025",
       credential: "1OP86OG01XQK",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/1OP86OG01XQK",
     },
     {
       img: iconDicoding,
@@ -50,7 +50,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Oct 2022 - Exp Oct 2025",
       credential: "N9ZO47O48ZG5",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/N9ZO47O48ZG5",
     },
     {
       img: iconDicoding,
@@ -58,7 +58,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Dec 2022 - Exp Dec 2025",
       credential: "1OP854V42PQK",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/1OP854V42PQK",
     },
     {
       img: iconDicoding,
@@ -66,7 +66,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Oct 2022 - Exp Oct 2025",
       credential: "L4PQ63GGOPO1",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/L4PQ63GGOPO1",
     },
     {
       img: iconDicoding,
@@ -74,7 +74,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Sep 2022 - Exp Sep 2025",
       credential: "ERZRM63KWPYV",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/ERZRM63KWPYV",
     },
     {
       img: iconDicoding,
@@ -82,7 +82,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Sep 2022 - Exp Sep 2025",
       credential: "1RXYM8G6QXVM",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/1RXYM8G6QXVM",
     },
     {
       img: iconDicoding,
@@ -90,7 +90,7 @@ const CertificateSection = () => {
       organization: "Dicoding Indonesia",
       date: "Issued Sep 2022 - Exp Sep 2025",
       credential: "72ZDOLG7JXYW",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.dicoding.com/certificates/72ZDOLG7JXYW",
     },
     {
       img: iconUdemy,
@@ -98,7 +98,7 @@ const CertificateSection = () => {
       organization: "Udemy",
       date: "Issued Mei 2022 - No Expiration Date",
       credential: "UC-f012288c-cfec-4096-b0a2-db44d89292a3",
-      url: "https://img.rk-certificate.com/MOCHAMADROLVW5XG/CERT-WLE3PGZD.jpg",
+      url: "https://www.udemy.com/certificate/UC-f012288c-cfec-4096-b0a2-db44d89292a3/",
     },
   ];
 
