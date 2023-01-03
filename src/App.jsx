@@ -14,7 +14,6 @@ function App() {
           <Route exact path="/certificate" element={<CertificateSection />}></Route>
           <Route exact path="/project" element={<ProjectSection />}></Route>
           <Route exact path="/skill" element={<ProjectSection />}></Route>
-          <Route exact path="*" element={<ExperienceSection />}></Route>
         </Routes>
       </Suspense>
     </Layout>

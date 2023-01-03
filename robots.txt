@@ -1,5 +1,2 @@
 User-agent: *
 Allow: /
-Allow: /project
-Allow: /skill
-Allow: /certificate
