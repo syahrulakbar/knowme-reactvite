@@ -17,7 +17,6 @@ export default defineConfig({
       manifest: {
         name: "Know Me | Website Portofolio",
         short_name: "Know Me",
-        start_url: "./index.html",
         description: "Website Portofolio",
         display: "standalone",
         background_color: "#FFFFFF",
