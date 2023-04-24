@@ -12,10 +12,9 @@ const Navbar = () => {
             to={"/"}
             aria-label="button my experience section"
             id="button-experience"
-            style={({ isActive }) => ({
-              borderTopColor: isActive ? `${localStorage.theme === "dark" ? "#FFF" : "#000"}` : "",
-            })}
-            className={`mr-2 border-t-[2px]  dark:hover:border-white hover:border-slate-900 border-transparent  w-[20%]`}
+            className={({ isActive }) =>
+              isActive ? "mr-2 border-t-2 border-slate-900 dark:border-white  dark:hover:border-white hover:border-slate-900 w-[20%]" : "mr-2 border-t-2 border-transparent  dark:hover:border-white hover:border-slate-900 w-[20%]"
+            }
           >
             <div className="flex justify-center mt-1">
               <span className="on hidden lg:block">Experience</span>
@@ -26,12 +25,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             aria-label="button my project section"
-            style={({ isActive }) => ({
-              borderTopColor: isActive ? `${localStorage.theme === "dark" ? "#FFF" : "#000"}` : "",
-            })}
             to={"/project"}
             id="button-project"
-            className={`mr-2 border-t-[2px] dark:hover:border-white hover:border-slate-900 border-transparent  w-[20%]`}
+            className={({ isActive }) =>
+              isActive ? "mr-2 border-t-2 border-slate-900 dark:border-white  dark:hover:border-white hover:border-slate-900 w-[20%]" : "mr-2 border-t-2 border-transparent   dark:hover:border-white hover:border-slate-900 w-[20%]"
+            }
           >
             <div className="flex justify-center mt-1">
               <span className="on hidden lg:block">My Project</span>
@@ -42,12 +40,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             aria-label="button my skill section"
-            style={({ isActive }) => ({
-              borderTopColor: isActive ? `${localStorage.theme === "dark" ? "#FFF" : "#000"}` : "",
-            })}
             to={"/skill"}
             id="button-skills"
-            className={`mr-2 border-t-[2px] dark:hover:border-white hover:border-slate-900 border-transparent  w-[20%]`}
+            className={({ isActive }) =>
+              isActive ? "mr-2 border-t-2 border-slate-900 dark:border-white  dark:hover:border-white hover:border-slate-900 w-[20%]" : "mr-2 border-t-2 border-transparent  dark:hover:border-white hover:border-slate-900 w-[20%]"
+            }
           >
             <div className="flex justify-center mt-1">
               <span className="on hidden lg:block">My Skills</span>
@@ -58,12 +55,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             aria-label="button my certificate section"
-            style={({ isActive }) => ({
-              borderTopColor: isActive ? `${localStorage.theme === "dark" ? "#FFF" : "#000"}` : "",
-            })}
             to={"/certificate"}
             id="button-certificate"
-            className={`mr-2 border-t-[2px] dark:hover:border-white hover:border-slate-900 border-transparent  w-[20%]`}
+            className={({ isActive }) =>
+              isActive ? "mr-2 border-t-2 border-slate-900 dark:border-white  dark:hover:border-white hover:border-slate-900 w-[20%]" : "mr-2 border-t-2 border-transparent  dark:hover:border-white hover:border-slate-900 w-[20%]"
+            }
           >
             <div className="flex justify-center mt-1">
               <span className="on hidden lg:block">Certificate</span>

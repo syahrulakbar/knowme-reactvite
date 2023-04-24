@@ -6,6 +6,7 @@ const ExperienceSection = lazy(() => import("./content/ExperienceSection"));
 const ProjectSection = lazy(() => import("./content/ProjectSection"));
 const CertificateSection = lazy(() => import("./content/CertificateSection"));
 const SkillSection = lazy(() => import("./content/SkillSection"));
+const Notfound = lazy(() => import("./content/Notfound"));
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/certificate" element={<CertificateSection />}></Route>
           <Route exact path="/project" element={<ProjectSection />}></Route>
           <Route exact path="/skill" element={<SkillSection />}></Route>
+          <Route exact path="/*" element={<Notfound />}></Route>
         </Routes>
       </Suspense>
     </Layout>

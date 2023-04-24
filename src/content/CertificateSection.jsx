@@ -2,9 +2,18 @@ import React from "react";
 import iconDicoding from "../assets/images/icon/ic-dicoding.png";
 import iconRuangguru from "../assets/images/icon/ic-ruangguru.png";
 import iconUdemy from "../assets/images/icon/ic-udemy.png";
+import iconHackerRank from "../assets/images/icon/ic-hackerrank.png";
 
 const CertificateSection = () => {
   const dataCertificate = [
+    {
+      img: iconHackerRank,
+      title: "React Basic",
+      organization: "HackerRank",
+      date: "Issued April 2023 - No Expiration Date",
+      credential: "fd98673acda5",
+      url: "https://www.hackerrank.com/certificates/fd98673acda5",
+    },
     {
       img: iconRuangguru,
       title: "Frontend Web Development with React",

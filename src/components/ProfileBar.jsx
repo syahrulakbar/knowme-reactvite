@@ -3,8 +3,6 @@ import Swal from "sweetalert2";
 import ProfilePicture from "../assets/images/profile-picture-2.webp";
 import ProfilePicturePng from "../assets/images/profile-picture-2.png";
 import DetailPicturePng from "../assets/images/detail-profile.png";
-import "../config/particles-config";
-import "../config/particles-dark";
 
 const ProfileBar = () => {
   const [pictureView, setpictureView] = useState(0);
@@ -24,9 +22,6 @@ const ProfileBar = () => {
 
   return (
     <div id="head-profile" className=" transition duration-150 ease-in-out flex flex-wrap xl:flex-nowrap  w-full   relative">
-      <div id="particles-js" className={`transition duration-150 ease-in-out w-[100%] h-[100%] absolute top-0 left-0 -z-20`}></div>
-      <div id="particles-dark" className={`transition duration-150 ease-in-out w-[100%] h-[100%] absolute top-0 left-0 -z-20`}></div>
-
       <div id="profile-image" className="w-[100%] lg:w-[100%] xl:w-[30%] mx-4">
         <div className="relative image-profile flex justify-center xl:justify-end">
           <picture className="flex justify-center xl:justify-end">
@@ -67,7 +62,7 @@ const ProfileBar = () => {
               </a>
               {/* <!-- Linkedin --> */}
               <a
-                href="https://www.linkedin.com/in/mochamad-syahrul-akbar-904409225/"
+                href="https://www.linkedin.com/in/mochamad-syahrul-akbar/"
                 target="_blank"
                 aria-label="view my linkedin"
                 className="linkedin w-9 h-9 mr-3 rounded-full flex items-center justify-center border  border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white"

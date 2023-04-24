@@ -1,15 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/skill",
-      "destination": "/"
-    },
-    {
-      "source": "/certificate",
-      "destination": "/"
-    },
-    {
-      "source": "/project",
+      "source": "/*",
       "destination": "/"
     }
   ]

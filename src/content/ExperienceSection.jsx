@@ -3,13 +3,13 @@ import React from "react";
 const ExperienceSection = () => {
   const dataExperience = [
     {
-      title: "Front End Specialist",
-      organization: "Sagara Tech (Internship)",
-      date: "Dec 2022 - Now",
-      desc: ["Learn JavaScript Programming Basics", "Learn Basic Web Programming", "Learn to Create Front-End for Beginners"],
+      title: "Frontend Web Developer (Internship)",
+      organization: "PT. Len Industri",
+      date: "Feb 2023 - Now",
+      desc: ["Reactjs, Microfrontends, JWT, WebSocket, Chartjs, Git, Github, Scrum", "Public Speaking, Team Work, Disscussion, Self Learning"],
     },
     {
-      title: "Front-End Engineering | Kampus merdeka Independent Study",
+      title: "Front-End Engineering (Internship)",
       organization: "Ruangguru",
       date: "Nov 2022 - Dec 2022 5 mos",
       desc: [
@@ -20,7 +20,7 @@ const ExperienceSection = () => {
       ],
     },
     {
-      title: "Front-End Web Developer | IDCAMP 2022",
+      title: "Front-End Web Developer | IDCAMP 2022 (Apprenticeship)",
       organization: "Indosat Ooredoo Hutchison Digital Camp (Online Course)",
       date: "May 2022 - Dec 2022 · 8 mos",
       desc: ["Learn JavaScript Programming Basics", "Learn Basic Web Programming", "Learn to Create Front-End for Beginners"],
@@ -32,8 +32,8 @@ const ExperienceSection = () => {
       desc: ["Assisting lecturers in the practicum implementation process", "Participate in the development of practicum materials", "Maintain and maintain laboratory equipment and cleanliness."],
     },
     {
-      title: "Electrical Maintenance Engineer",
-      organization: "LG Service Center (Internship)",
+      title: "Electrical Maintenance Engineer (Internship)",
+      organization: "LG Service Center",
       date: "Feb 2019 - Apr 2019 · 3 mos",
       desc: ["Learn JavaScript Programming Basics", "Learn Basic Web Programming", "Learn to Create Front-End for Beginners"],
     },
