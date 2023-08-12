@@ -3,9 +3,17 @@ import iconDicoding from "../assets/images/icon/ic-dicoding.png";
 import iconRuangguru from "../assets/images/icon/ic-ruangguru.png";
 import iconUdemy from "../assets/images/icon/ic-udemy.png";
 import iconHackerRank from "../assets/images/icon/ic-hackerrank.png";
+import iconLen from "../assets/images/icon/lenicon.png";
 
 const CertificateSection = () => {
   const dataCertificate = [
+    {
+      img: iconLen,
+      title: "Frontend Web Developer",
+      organization: "PT LEN Industri (Persero)",
+      date: "Issued July 2023 - No Expiration Date",
+      url: "https://www.linkedin.com/in/mochamad-syahrul-akbar/",
+    },
     {
       img: iconHackerRank,
       title: "React Basic",
@@ -115,15 +123,30 @@ const CertificateSection = () => {
     <div id="certificate" className="container mx-auto mt-10">
       <div id="certificate-content" className="w-full flex flex-wrap justify-center">
         {dataCertificate.map((certificate, id) => (
-          <div key={id} className="w-full lg:m-2 lg:w-[40%] h-max flex shadow-md shadow-sky-400 rounded-lg">
-            <img src={certificate.img} loading="lazy" alt={`icon ${certificate.title}`} className="w-12 h-12 m-4" />
+          <div
+            key={id}
+            className="w-full lg:m-2 lg:w-[40%] h-max flex shadow-md shadow-sky-400 rounded-lg"
+          >
+            <img
+              src={certificate.img}
+              loading="lazy"
+              alt={`icon ${certificate.title}`}
+              className="w-12 h-12 m-4 object-cover"
+            />
             <div className="p-2">
-              <a aria-label="link to my certificate" href={certificate.url} target="_blank" rel="noopener noreferrer">
+              <a
+                aria-label="link to my certificate"
+                href={certificate.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <h3 className="font-semibold hover:text-sky-400">{certificate.title}</h3>
               </a>
               <h4 className="font-normal">{certificate.organization}</h4>
               <p className="font-light text-sm">{certificate.date}</p>
-              {certificate.credential && <p className="font-light text-sm">{`Credential ID ${certificate.credential}`}</p>}
+              {certificate.credential && (
+                <p className="font-light text-sm">{`Credential ID ${certificate?.credential}`}</p>
+              )}
             </div>
           </div>
         ))}

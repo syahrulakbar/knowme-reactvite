@@ -17,8 +17,16 @@ const SkillSection = () => {
         skillLevel: "Intermediate",
       },
       {
+        skillName: "Typescript",
+        skillLevel: "Basic",
+      },
+      {
         skillName: "React JS",
         skillLevel: "Intermediate",
+      },
+      {
+        skillName: "Next JS",
+        skillLevel: "Basic",
       },
       {
         skillName: "Vite",
@@ -29,7 +37,7 @@ const SkillSection = () => {
         skillLevel: "Basic",
       },
     ],
-    backend: ["NodeJS", "Java"],
+    backend: ["NodeJS", "Express js", "Java"],
     framework: ["Bootstrap", "Tailwind", "Chakra UI"],
     deployment: ["Netlify", "Vercel", "GH Pages", "Firebase Hosting"],
     vcs: ["GIT", "Github"],
