@@ -129,7 +129,7 @@ const ProfileBar = () => {
               {/* <!-- CV --> */}
               <a
                 href="Mochamad Syahrul Akbar-Resume.pdf"
-                download
+                download={"Mochamad Syahrul Akbar-Resume.pdf"}
                 aria-label="download my resume"
                 className="w-9 h-9 mr-3 rounded-full flex items-center justify-center border   border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white"
               >
