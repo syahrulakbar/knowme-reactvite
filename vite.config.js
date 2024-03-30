@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       workbox: {
         globDirectory: "dist",
-        globPatterns: ["**/*.{js,css,html,png,webp}", "*/*.{html,png}"],
+        globPatterns: ["**/*.{js,css,html,png,webp,pdf}", "*/*.{html,png,pdf}"],
         globIgnores: ["**/node_modules/**/**", "sw.js", "workbox-*.js"],
       },
       manifest: {
