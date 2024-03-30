@@ -25,6 +25,10 @@ const SkillSection = () => {
         skillLevel: "Intermediate",
       },
       {
+        skillName: "React Native",
+        skillLevel: "Basic",
+      },
+      {
         skillName: "Next JS",
         skillLevel: "Basic",
       },

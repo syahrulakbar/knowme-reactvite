@@ -11,6 +11,7 @@ import NobarkuyPng from "../assets/images/nobarkuy-preview-1.png";
 import WarkopbaePng from "../assets/images/warkopbae.png";
 import Airbnb from "../assets/images/airbnb.png";
 import VcsPng from "../assets/images/vcsimg.png";
+import Sipardi from "../assets/images/sipardi.png";
 
 const ProjectSection = () => {
   const dataProjects = [
@@ -67,15 +68,22 @@ const ProjectSection = () => {
       img: Airbnb,
       link: "https://airbnb-clone-kohl-tau.vercel.app/",
     },
+    {
+      title: "SiParDi | Sistem Pakar Diagnosa Dispepsia",
+      desc: "Express System Diagnosis Dispepsia",
+      tech: ["React Native", "Supabase", "Reactjs", "Express"],
+      img: Sipardi,
+      link: "https://play.google.com/store/apps/details?id=com.sipardi",
+    },
   ];
 
   return (
-    <div id="project" className=" container  mt-10 ">
+    <div id="project" className=" container  mt-10 overflow-x-hidden">
       <div
         id="project-content"
         className="flex flex-col  md:flex-row flex-wrap justify-center w-full"
       >
-        {dataProjects.map((project, id) => (
+        {dataProjects.reverse().map((project, id) => (
           <a
             aria-label="link to my project"
             key={id}
@@ -85,7 +93,7 @@ const ProjectSection = () => {
             className="w-full md:w-1/2"
           >
             <div
-              className={`bg-white text-black dark:bg-slate-900 dark:text-white card relative mt-2 lg:m-3 rounded-lg shadow-md shadow-sky-400 h-[350px]`}
+              className={`bg-white text-black dark:bg-slate-900 dark:text-white card relative mt-2 lg:m-3 rounded-lg shadow-md shadow-sky-400  h-[350px]`}
             >
               <div className="w-full h-[60%]">
                 <picture>
@@ -93,7 +101,7 @@ const ProjectSection = () => {
                   <source type="image/png" media="(max-width: 600px)" srcSet={project?.imgPng} />
                   <img
                     loading="lazy"
-                    className="w-full h-full rounded-t-lg object-cover"
+                    className="w-full h-full rounded-t-lg object-cover object-center"
                     src={project.img}
                     alt={`${project.title} preview`}
                   />
@@ -101,11 +109,11 @@ const ProjectSection = () => {
               </div>
               <div id="project-title" className="w-full break-words">
                 <div className="p-5">
-                  <div className="w-full flex">
+                  <div className="w-full xl:flex hidden ">
                     {project.tech.map((stack, id) => (
                       <h3
                         key={id}
-                        className=" px-2 rounded-full border-2 border-sky-500 flex justify-center flex-wrap items-center mr-1"
+                        className=" px-2 rounded-full border-2 border-sky-500 flex justify-center items-center mr-1"
                       >
                         {stack}
                       </h3>

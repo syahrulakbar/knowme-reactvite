@@ -128,7 +128,7 @@ const ProfileBar = () => {
               </a>
               {/* <!-- CV --> */}
               <a
-                href="src/assets/myresume.pdf"
+                href="Mochamad Syahrul Akbar-resume.pdf"
                 download="Mochamad Syahrul Akbar - Resume"
                 aria-label="download my resume"
                 className="w-9 h-9 mr-3 rounded-full flex items-center justify-center border   border-slate-300 hover:border-sky-400 hover:bg-sky-400 hover:text-white"
@@ -146,8 +146,8 @@ const ProfileBar = () => {
           </div>
           <h2 className="font-medium text-lg  text-left">About Me</h2>
           <p className="font-light">
-            I am a student majoring in computer engineering, interested in the field of front end
-            web developer who is very passionated about improving my coding skills.
+            I am a student majoring in computer engineering, interested in the field of web and
+            android developer who is very passionated about improving my coding skills.
           </p>
         </div>
       </div>
