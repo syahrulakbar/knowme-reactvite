@@ -129,7 +129,7 @@ const ProfileBar = () => {
               {/* <!-- CV --> */}
               <a
                 href={
-                  "https://github.com/syahrulakbar/knowme-reactvite/raw/main/src/assets/Mochamad%20Syahrul%20Akbar-resume.pdf"
+                  "https://github.com/syahrulakbar/knowme-reactvite/raw/main/src/assets/Mochamad%20Syahrul%20Akbar%20-%20CV.pdf"
                 }
                 target="_blank"
                 download={"Mochamad Syahrul Akbar-Resume.pdf"}

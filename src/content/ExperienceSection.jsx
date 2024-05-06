@@ -3,8 +3,13 @@ import React from "react";
 const ExperienceSection = () => {
   const dataExperience = [
     {
+      title: "Web Developer (Internship)",
+      organization: "PT. Bank Mandiri (Persero) Tbk.",
+      date: "May 2024 - Present 1 mo",
+    },
+    {
       title: "Frontend Web Developer (Internship)",
-      organization: "PT. Len Industri",
+      organization: "PT. Len Industri (Persero)",
       date: "Feb 2023 - July 2023 6 mos",
       desc: [
         "Reactjs, Microfrontends, JWT, WebSocket, Chartjs, Git, Github, Scrum",
@@ -81,7 +86,7 @@ const ExperienceSection = () => {
                 <h2 className="education-subtitle inline-block mb-1">{experience.organization}</h2>
                 <p className="education-calender font-medium text-slate-700 dark:text-slate-400 mb-1">{`📆 ${experience.date}`}</p>
                 <ul className="font-light text-sm pl-5 list-disc">
-                  {experience.desc.map((waktu, id) => (
+                  {experience?.desc?.map((waktu, id) => (
                     <li key={id}>{waktu}</li>
                   ))}
                 </ul>
