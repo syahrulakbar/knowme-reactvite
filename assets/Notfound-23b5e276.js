@@ -1,0 +1,1 @@
+import{a as e}from"./index-96a54572.js";const t=()=>e("div",{className:"w-full h-full",children:e("div",{className:"w-full flex justify-center items-center h-60",children:e("h2",{className:"font-bold text-2xl",children:"404 Page Not Found"})})});export{t as default};
