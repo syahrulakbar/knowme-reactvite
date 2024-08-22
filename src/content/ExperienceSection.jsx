@@ -3,17 +3,29 @@ import React from "react";
 const ExperienceSection = () => {
   const dataExperience = [
     {
+      title: "SAP ABAP Consultant",
+      organization: "PT. Astra Graphia Information Technology",
+      date: "August 2024 - Present",
+    },
+    {
       title: "Web Developer (Internship)",
       organization: "PT. Bank Mandiri (Persero) Tbk.",
-      date: "May 2024 - Present 1 mo",
+      date: "May - August 2024 3 mo",
+      desc: [
+        "Successfully developed a booking for medical check up app used by 5,000 users, significantly improving the company’s efficiency and contributed to budget reduction by lowering operational costs",
+        "Build an interactive app, and collaborate with design team",
+      ],
     },
     {
       title: "Frontend Web Developer (Internship)",
       organization: "PT. Len Industri (Persero)",
       date: "Feb 2023 - July 2023 6 mos",
       desc: [
-        "Reactjs, Microfrontends, JWT, WebSocket, Chartjs, Git, Github, Scrum",
-        "Public Speaking, Team Work, Disscussion, Self Learning",
+        "Developed and maintained responsive, user-friendly web applications using modern web technologies like React.js, Express",
+        "Collaborate with Backend Team, and become UI UX Designer",
+        "Successfully build website to monitoring real time",
+        `Tech Stack:
+        Reactjs, Webpack, Vite,Vitest, Websocket, Chart JS`,
       ],
     },
     {

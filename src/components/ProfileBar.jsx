@@ -30,7 +30,7 @@ const ProfileBar = () => {
             Mochamad Syahrul Akbar
           </h1>
           <h2 id="status" className="font-light text-center  xl:text-left">
-            Student | <span className="font-normal">Junior Front-End Web</span>
+            SAP ABAP Consultant at Astra Group
           </h2>
           <div
             className={`w-full flex justify-center xl:justify-start pt-2 text-slate-900 dark:text-white `}
@@ -149,8 +149,10 @@ const ProfileBar = () => {
           </div>
           <h2 className="font-medium text-lg  text-left">About Me</h2>
           <p className="font-light">
-            I am a student majoring in computer engineering, interested in the field of web and
-            android developer who is very passionated about improving my coding skills.
+            I am an freshgraduate in the field of information technology. I have experience as a web
+            and android developer, and have a strong interest in the latest technology and
+            innovations in the field of IT. I always want to learn and develop myself to be better
+            in my field.
           </p>
         </div>
       </div>
