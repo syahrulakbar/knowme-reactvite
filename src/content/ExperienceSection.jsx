@@ -4,8 +4,11 @@ const ExperienceSection = () => {
   const dataExperience = [
     {
       title: "SAP ABAP Consultant",
-      organization: "PT. Astra Graphia Information Technology",
+      organization: "PT Astra International Tbk",
       date: "August 2024 - Present",
+      desc: [
+        "Developing custom reports, interfaces, conversions, enhancements, forms, and workflows (RICEFW) with SAP ECC and SAP S/4HANA."
+      ],
     },
     {
       title: "Web Developer (Internship)",
