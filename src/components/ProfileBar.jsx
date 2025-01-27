@@ -30,7 +30,7 @@ const ProfileBar = () => {
             Mochamad Syahrul Akbar
           </h1>
           <h2 id="status" className="font-light text-center  xl:text-left">
-            SAP ABAP Consultant at Astra Group
+            SAP ABAP Consultant at Astra Group | Lifelong Learner
           </h2>
           <div
             className={`w-full flex justify-center xl:justify-start pt-2 text-slate-900 dark:text-white `}
